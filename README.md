@@ -17,7 +17,7 @@ How you organise your config files is entirely up to you, but this is how I do i
 ## Running Superlumic
 
 ```bash
-curl -s https://raw.githubusercontent.com/superlumic/superlumic/master/superlumic | bash -s <your repo clone url here>
+curl -s https://raw.githubusercontent.com/klarna/superlumic/master/superlumic | bash -s <your repo clone url here>
 ```
 
 Or if you have an adversion to piping scripts over the internet into bash, download the [Superlumic script](https://raw.githubusercontent.com/superlumic/superlumic/master/superlumic) and run it.
@@ -25,7 +25,7 @@ Or if you have an adversion to piping scripts over the internet into bash, downl
 **Note:** Superlumic takes in an additional, optional, argument that determines the name of the playbook to use. When no argument is supplied, "default.yml" will be used. However, if you ran the script thusly:
 
 ```bash
-curl -s https://raw.githubusercontent.com/superlumic/superlumic/master/superlumic | bash -s <your repo clone url here> roderik
+curl -s https://raw.githubusercontent.com/klarna/superlumic/master/superlumic | bash -s <your repo clone url here> roderik
 ```
 
 Then "roderik.yml" will be used.
