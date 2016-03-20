@@ -105,7 +105,7 @@ sudo chgrp -R admin /usr/local
 if [ -d "/usr/local/superlumic/config" ]; then
     setStatusMessage "Update your config from git"
     cd /usr/local/superlumic/config
-    git pull -q
+    git -c http.sslVerify=false pull -q
 else
     if [ ! -z "$repo" ]; then
         setStatusMessage "Getting your config from your fork"
